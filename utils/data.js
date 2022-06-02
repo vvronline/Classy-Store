@@ -2,6 +2,8 @@ const data = {
   products: [
     {
       name: 'Free Shirt',
+      slug: 'free-shirt',
+
       category: 'Shirts',
       image: '/images/shirt1.jpg',
       price: 70,
@@ -14,6 +16,7 @@ const data = {
     {
       name: 'Fit Shirt',
       category: 'Shirts',
+      slug: 'fit-shirt',
       image: '/images/shirt2.jpg',
       price: 80,
       Brand: 'Adidas',
@@ -23,7 +26,8 @@ const data = {
       description: 'A popular shirt',
     },
     {
-      name: 'Printed Shirt',
+      name: 'Formal Shirt',
+      slug: 'formal-shirt',
       category: 'Shirts',
       image: '/images/shirt3.jpg',
       price: 60,
@@ -35,6 +39,7 @@ const data = {
     },
     {
       name: 'Golf Pants',
+      slug: 'golf-pants',
       category: 'Pants',
       image: '/images/pants1.jpg',
       price: 90,
@@ -46,6 +51,7 @@ const data = {
     },
     {
       name: 'Fit Pants',
+      slug: 'fit-pants',
       category: 'Pants',
       image: '/images/pants2.jpg',
       price: 95,
@@ -57,6 +63,7 @@ const data = {
     },
     {
       name: 'Classic pants',
+      slug: 'classic-pants',
       category: 'Pants',
       image: '/images/pants3.jpg',
       price: 70,
