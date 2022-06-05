@@ -28,7 +28,7 @@ export default function ProductScreen() {
       <div className={classes.section}>
         <NextLink href="/" passHref>
           <Link>
-            <Typography>back to product</Typography>
+            <Typography> Back to product</Typography>
           </Link>
         </NextLink>
       </div>
@@ -45,7 +45,9 @@ export default function ProductScreen() {
         <Grid item md={3} xs={12}>
           <List>
             <ListItem>
-              <Typography component="h1"> {product.name}</Typography>
+              <Typography component="h1" variant="h1">
+                {product.name}
+              </Typography>
             </ListItem>
             <ListItem>
               <Typography>Category : {product.category}</Typography>
@@ -55,7 +57,6 @@ export default function ProductScreen() {
             </ListItem>
             <ListItem>
               <Typography>
-                {' '}
                 Rating : {product.rating} stars ({product.numReviews} reviews)
               </Typography>
             </ListItem>
